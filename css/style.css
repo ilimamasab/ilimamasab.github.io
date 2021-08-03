@@ -6,7 +6,9 @@ body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
-
+#icon-service{
+ width: 130px;
+}
 h1,
 h2,
 h3,
@@ -885,7 +887,7 @@ a:focus {
 
 .portfolio .portfolio-text h3 {
     width: calc(100% - 70px);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     margin: 0 0 0 15px;
     white-space: nowrap;
@@ -1401,11 +1403,13 @@ a:focus {
     position: relative;
     width: 100%;
     overflow: hidden;
+    background: #FC427B;
 }
 
 .blog .blog-img img {
     width: 100%;
     transition: .5s;
+    padding: 5px;
 }
 
 .blog .blog-item:hover img {
