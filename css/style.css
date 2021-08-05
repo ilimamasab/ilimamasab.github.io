@@ -855,7 +855,7 @@ a:focus {
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
-
+ 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
     color: #FC427B;
@@ -875,6 +875,7 @@ a:focus {
 
 .portfolio .portfolio-img {
     position: relative;
+    overflow: hidden;
 }
 
 .portfolio .portfolio-img img {
@@ -884,7 +885,7 @@ a:focus {
     object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
-    padding: 10px;
+
 }
 
 .portfolio .portfolio-item:hover img {
